@@ -41,5 +41,5 @@ bytearray_type = bytearray(5)
 print(type(bytearray_type))
 memoryview_type = memoryview(bytes(5))
 print(type(memoryview_type))
-none_type = None
+none_type = None  # it is actually null
 print(type(none_type))
